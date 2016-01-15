@@ -263,7 +263,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.4;
   color: #6C6F73;
@@ -365,7 +365,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: #2D3238;
@@ -5397,7 +5397,7 @@ body {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5515,7 +5515,7 @@ body {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8962,6 +8962,24 @@ img.zoom-img {
 .stage-toggle-right {
   left: auto;
   right: 20px;
+}
+.project-img {
+  height: 193px;
+}
+.collab-img {
+  width: 250px;
+}
+.name {
+  position: absolute;
+  font-size: 27px;
+  left: 12px;
+  top: 0px;
+}
+@media (min-width: 768px) {
+  .name {
+    top: 32px;
+    font-size: 30px;
+  }
 }
 h1.text-uppercase,
 h2.text-uppercase,
