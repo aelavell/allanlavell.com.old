@@ -8986,6 +8986,14 @@ img.zoom-img {
   margin-left: 15px;
   margin-right: 15px;
 }
+.tablet-up {
+  display: none !important;
+}
+@media (min-width: 768px) {
+  .tablet-up {
+    display: block !important;
+  }
+}
 h1.text-uppercase,
 h2.text-uppercase,
 h3.text-uppercase,
